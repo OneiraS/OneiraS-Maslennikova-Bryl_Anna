@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_12">
+   <stop offset="0" stop-color="#575787"/>
+   <stop offset="1" stop-color="#a8a878"/>
+  </linearGradient>
+  <linearGradient id="svg_15" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+   <stop offset="0" stop-color="#575787"/>
+   <stop offset="1" stop-color="#a8a878"/>
+  </linearGradient>
+  <linearGradient id="svg_21" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+   <stop offset="0" stop-color="#343456" stop-opacity="0.992188"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.996094"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="25.240288" cy="24.443128" fill="url(#svg_21)" id="svg_1" rx="20.931565" ry="20.614572" stroke="#9797bf" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2" transform="rotate(-133.309 25.2403 24.4431)"/>
+  <path d="m11.035781,19.177282l14.5,-13.416659l14.5,13.416659l-29.000001,0l0,0z" fill="#ffffff" id="svg_2" stroke="#c0c7d6" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+  <rect fill="#ffffff" height="14.333333" id="svg_3" stroke="#b8c0d3" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" width="20.666668" x="15.166667" y="21.16667"/>
+  <rect fill="#ffffff" height="2" id="svg_6" stroke="#dee1e8" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="4" width="0" x="456.5" y="366.5"/>
+  <rect fill="#b7b9c9" height="12.333321" id="svg_8" stroke="#dee1e8" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="0" width="8.666667" x="23.833336" y="23.833324"/>
+  <rect fill="#50577f" height="4" id="svg_9" stroke="#dee1e8" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="4" width="0" x="132.5" y="534.5"/>
+  <polygon fill="url(#svg_12)" id="svg_13"/>
+  <polygon fill="url(#svg_15)" id="svg_14"/>
+  <polygon fill="url(#svg_15)" id="svg_16"/>
+ </g>
+</svg>

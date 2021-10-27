@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_12">
+   <stop offset="0" stop-color="#575787"/>
+   <stop offset="1" stop-color="#a8a878"/>
+  </linearGradient>
+  <linearGradient id="svg_15" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+   <stop offset="0" stop-color="#575787"/>
+   <stop offset="1" stop-color="#a8a878"/>
+  </linearGradient>
+  <linearGradient id="svg_21" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+   <stop offset="0" stop-color="#343456" stop-opacity="0.992188"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.996094"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="24.543266" cy="24.221763" fill="url(#svg_21)" id="svg_1" rx="22.690088" ry="22.313978" stroke="#9797bf" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2" transform="rotate(-133.309 24.5433 24.2218)"/>
+  <rect fill="#ffffff" height="2" id="svg_6" stroke="#dee1e8" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="4" width="0" x="456.5" y="366.5"/>
+  <rect fill="#50577f" height="4" id="svg_9" stroke="#dee1e8" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="4" width="0" x="132.5" y="534.5"/>
+  <polygon fill="url(#svg_12)" id="svg_13"/>
+  <polygon fill="url(#svg_15)" id="svg_14"/>
+  <polygon fill="url(#svg_15)" id="svg_16"/>
+  <path d="m20.897406,38.212395c-1.010266,-0.826604 -0.87772,-1.327155 1.578539,-5.960796c1.240292,-2.339748 2.255067,-4.322083 2.255067,-4.405185c0,-0.083096 -3.424871,-0.151089 -7.610848,-0.151089l-7.610848,0l0,-4.382113l0,-4.382113l7.671168,0c5.914902,0 7.605133,-0.132011 7.382782,-0.576596c-0.15861,-0.317126 -1.240569,-2.421523 -2.404353,-4.67643c-2.193748,-4.250553 -2.19306,-5.390448 0.00339,-5.743775c1.09309,-0.175832 18.111208,13.334137 18.696155,14.842105c-5.668586,5.38427 -12.444468,11.020219 -18.686158,15.989525c-0.32911,0 -0.902804,-0.249089 -1.274891,-0.553532l-0.000001,0l0,0z" fill="#ffffff" id="svg_23" stroke="#c0c7d6" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="bevel"/>
+ </g>
+</svg>
