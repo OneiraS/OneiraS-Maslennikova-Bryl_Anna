@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Form</title>
 </head>
-
 <body>
     <table width=700>
         <tr>
             <th>Простая форма поиска с вариантами:</th>
             <th>Простая форма поиска с вариантами:</th>
-
         </tr>
         <tr>
             <td>
                 <form action="http://fe.it-academy.by/TestForm.php" method="get" name="form1">
                     <fieldset>
                         <legend>Строка поиска</legend>
-                            <input type="search" name="search" maxlength="10">
-                            <input type="submit" value="Искать">
+                        <input type="search" name="search" maxlength="10">
+                        <input type="submit" value="Искать">
                         <br>
                         <input type="radio" name="searchmetod" value="site" checked> на сайте
                         <input type="radio" name="searchmetod" value="google"> в google
@@ -111,18 +108,18 @@
                         <option value="0" selected>Город</option>
                     </select>
 
-                    <select name="list2" name="list" size=8>
+                    <select name="list2" size=8>
                         <optgroup label="Города РБ">
-                              <option value="Brest">Брест</option>
-                              <option value="Minsk">Минск</option>
-                              <option value="Vitebsk">Витебск</option>
+                            <option value="Brest">Брест</option>
+                            <option value="Minsk">Минск</option>
+                            <option value="Vitebsk">Витебск</option>
                         </optgroup>
                         <optgroup label="Города России">
-                              <option value="Moscow">Москва</option>
-                              <option value="Ryazan">Рязань</option>
-                              <option value="Magadan">Магадан</option>
+                            <option value="Moscow">Москва</option>
+                            <option value="Ryazan">Рязань</option>
+                            <option value="Magadan">Магадан</option>
                         </optgroup>
-                        </select>
+                    </select>
                     <input type="submit" value="ОК">
                 </fieldset>
             </form>
@@ -133,31 +130,33 @@
         </tr>
         <tr>
             <td>
-            <form action="http://fe.it-academy.by/TestForm.php" method="post" name="form7" enctype="multipart/form-data">
-                <fieldset>
-                    <legend>Upload</legend>
-                    Файл
-                    <br>
-                    <input type="file" name="file">
-                    <br>
-                    Срок хранения (года)
-                    <br>
-                    <input type="number" min="0" max="100" step="1" name="year">
-                    <input type="submit" value="Загрузить">
-                </fieldset>
-            </form>    
+                <form action="http://fe.it-academy.by/TestForm.php" method="post" name="form7"
+                    enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Upload</legend>
+                        Файл
+                        <br>
+                        <input type="file" name="file">
+                        <br>
+                        Срок хранения (года)
+                        <br>
+                        <input type="number" min="0" max="100" step="1" name="year">
+                        <input type="submit" value="Загрузить">
+                    </fieldset>
+                </form>
             </td>
             <td>
-            <form action="http://fe.it-academy.by/TestForm.php" method="get" name="form8">
+                <form action="http://fe.it-academy.by/TestForm.php" method="get" name="form8">
                     <fieldset>
-                    <legend>Строка поиска</legend>   
-                    <input type="text" name="name" placeholder="Только русские буквы" pattern="^[А-Яа-яЁё\s]+$">
-                    <br>
-                    <input type="text" name="phone" placeholder="+375-29-1234567" pattern="[+][0-9]{3}-[0-9]{2}-[0-9]{9}"> 
-                    <br>
-                    <input type="submit" value="Проверить">    
-                </fieldset>
-            </form>
+                        <legend>Строка поиска</legend>
+                        <input type="text" name="name" placeholder="Только русские буквы" pattern="^[А-Яа-яЁё\s]+$">
+                        <br>
+                        <input type="text" name="phone" placeholder="+375-29-1234567"
+                            pattern="[+][0-9]{3}-[0-9]{2}-[0-9]{9}">
+                        <br>
+                        <input type="submit" value="Проверить">
+                    </fieldset>
+                </form>
             </td>
         </tr>
     </table>
