@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Menu</title>
+    <style>
+        .MenuLevel1 {
+            display: inline-block;
+        }
+        .MenuLevel2 {
+            display: inline-block;
+        }
+        @media all and (max-width: 900px) {
+        div.MenuLevel1 { width: 100px }
+        div.MenuLevel1 > div { background-color: rgb(148, 148, 148); border: solid rgb(83, 83, 83) 1px; position: relative; cursor: pointer}
+        div.MenuLevel2 { width: 150px; display: none }
+        div.MenuLevel2 > div { background-color: rgb(212, 212, 212); border: solid rgb(0, 0, 0) 1px; cursor: pointer }
+        div.MenuLevel1 > div:hover div.MenuLevel2 { display: block; position: absolute; left: 80%; top: 90%; z-index: 1 }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class='MenuLevel1'>
+                <button>Понедельник</button>
+            <div class='MenuLevel2'>
+                <div><button>Завтрак</button></div>
+                <div><button>Завтрак</button></div>
+                <div><button>Завтрак</button></div>
+            </div>
+    </div>
+        <div>
+            <button>Вторник</button>
+            <div class='MenuLevel2'>
+                <button>Завтрак</button>
+                <button>Обед</button>
+                <button>Ужин</button>
+            </div>
+        </div><div>
+            <button>Среда</button>
+            <div class='MenuLevel2'>
+                <button>Завтрак</button>
+                <button>Обед</button>
+                <button>Ужин</button>
+            </div>
+        </div><div>
+            <button>Четверг</button>
+            <div class='MenuLevel2'>
+                <button>Завтрак</button>
+                <button>Обед</button>
+                <button>Ужин</button>
+            </div>
+        </div><div>
+            <button>Пятница</button>
+            <div class='MenuLevel2'>
+                <button>Завтрак</button>
+                <button>Обед</button>
+                <button>Ужин</button>
+            </div>
+        </div><div>
+            <button>Суббота</button>
+            <div class='MenuLevel2'>
+                <button>Завтрак</button>
+                <button>Обед</button>
+                <button>Ужин</button>
+            </div>
+    </div>
+     
+</body>
+</html>
