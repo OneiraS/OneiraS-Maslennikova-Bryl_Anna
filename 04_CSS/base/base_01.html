@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        li {
+            list-style-type: none
+        }
+
+        p {
+            text-indent: 2em;
+            border: 1px outset rgb(219, 219, 219);
+            border-radius: 0 1em/1em
+        }
+
+        p a[href$='.doc']:after {
+            content: url(../base/word.jpg);
+        }
+
+        p a[href$='.pdf']:after {
+            content: url(../base/pdf.png);
+        }
+
+        p a[href$='.zip']:after {
+            content: url(../base/zip.gif);
+        }
+
+        .word:hover:after {
+            content: url(../base/word.jpg);
+        }
+
+        .pdf:hover:after {
+            content: url(../base/pdf.png);
+        }
+
+        .zip:hover:after {
+            content: url(../base/zip.gif);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Форматы файлов.</h1>
+    <p>.DOC или .doc (от английского <a href="arrow.png"
+            style="background-image: url(arrow.png); background-repeat: no-repeat ; padding-left: 10px;">document</a>) -
+        расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без. Расширение DOC часто
+        использовалось для обозначения простых текстовых файлов без форматирования, однако позже стало использоваться
+        для двоичных форматов с разметкой.<br>
+        <a href="file.doc">Document MS Word</a>
+    </p>
+    <p>Portable Document Format (<a href="arrow.png"
+            style="background-image: url(arrow.png); background-repeat: no-repeat ; padding-left: 10px;">PDF</a>) -
+        межплатформенный формат электронных документов, разработанный фирмой Adobe Systems с использованием ряда
+        возможностей языка Postscript.<br>
+        <a href="pdf.pdf">Документ PDF</a>
+    </p>
+    <p>ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение <a
+            href="arrow.png"
+            style="background-image: url(arrow.png); background-repeat: no-repeat ; padding-left: 10px;">zip</a> и
+        хранит в сжатом или несжатом виде один или несколько файлов, которые можно из него извлечь путем распаковки с
+        помощью специальной программы<br>
+        <a href="file.zip">Архив</a>
+    </p>
+    <h2>Это список файлов</h2>
+    <ul>
+        <li class="word"><a href="file.jpg"
+                style="background-image: url(file.jpg); background-repeat: no-repeat ; padding-left: 20px;">Документ MS
+                Word</a></li>
+        <li class="pdf"><a href="file.jpg"
+                style="background-image: url(file.jpg); background-repeat: no-repeat ; padding-left: 20px;">Документ
+                PDF</a></li>
+        <li class="zip"><a href="file.jpg"
+                style="background-image: url(file.jpg); background-repeat: no-repeat ; padding-left: 20px;">Архив</a>
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      
+        li::before {
+            content: url(../base/file.jpg);
+        }
+
+        .arrow::before {
+            content: url(../base/arrow.png);
+        }
+
+        p {
+            text-indent: 2em;
+            border: 1px outset rgb(219, 219, 219);
+            border-radius: 0 1em/1em
+        }
+
+        p a[href$='.doc']::after {
+            content: url(../base/word.jpg);
+        }
+
+        p a[href$='.pdf']::after {
+            content: url(../base/pdf.png);
+        }
+
+        p a[href$='.zip']::after {
+            content: url(../base/zip.gif);
+        }
+
+        li {
+            list-style-type: none
+        }
+
+        li [text$='word']:hover:after {
+            content: url(../base/word.jpg);
+        }
+
+        li [text$='pdf']:hover:after {
+            content: url(../base/pdf.png);
+        }
+
+        li [text$='архив']:hover:after {
+            content: url(../base/zip.gif);
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Форматы файлов.</h1>
+    <p>.DOC или .doc (от английского <a href="https://ru.wikipedia.org/wiki/Doc" target="blank"
+            class="arrow">document</a>) - расширение имени файла, используемое для файлов, представляющих текст, с
+        разметкой или без. Расширение DOC часто использовалось для обозначения простых текстовых файлов без
+        форматирования, однако позже стало использоваться для двоичных форматов с разметкой.<br>
+        <a href="word.doc">Document MS Word</a>
+    </p>
+    <p>Portable Document Format (<a href="https://ru.wikipedia.org/wiki/pdf" target="blank" class="arrow">PDF</a>) -
+        межплатформенный формат электронных документов, разработанный фирмой Adobe
+        Systems с использованием ряда возможностей языка Postscript.<br>
+        <a href="pdf.pdf">Документ PDF</a>
+    </p>
+    <p>ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение <a
+            href="https://ru.wikipedia.org/wiki/zip" target="blank" class="arrow">zip</a> и
+        хранит в сжатом или несжатом виде один или несколько файлов, которые можно из него извлечь путем распаковки с
+        помощью специальной программы<br>
+        <a href="file.zip">Архив</a>
+    </p>
+    <h2>Это список файлов</h2>
+    <ul>
+        <li><a href="word.doc">Документ MS Word</a></li>
+        <li><a href="pdf.pdf">Документ PDF</a></li>
+        <li><a href="file.zip">Архив</a></li>
+    </ul>
+</body>
+
+</html>
