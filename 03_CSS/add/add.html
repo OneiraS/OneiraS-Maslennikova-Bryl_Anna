@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .menu {
+            display: flex;
+        }
+
+        .meal {
+
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            margin-top: 30px;
+            max-height: 0px;
+            overflow: hidden;
+        }
+
+        button {
+            background-color: rgb(207, 203, 203);
+            border: dimgrey 1px solid;
+            padding: .5em 2em;
+            border-radius: 5px;
+            width: 150px;
+        }
+
+        button:hover {
+            background-color: rgb(128, 126, 126);
+
+        }
+
+        .day {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .day:hover .meal {
+
+            max-height: 150px;
+            transition: .5s linear
+        }
+
+        .meal>div {
+            background-color: rgb(199, 199, 199);
+            border: dimgrey 1px solid;
+            padding: .5em 2em;
+            border-radius: 5px;
+        }
+
+        @media all and (max-width: 908px) {
+            .day:hover .meal {
+
+                position: absolute;
+                margin-left: 150px;
+
+            }
+
+            .menu {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="day">
+            <button>Понедельник</button>
+            <div class="meal">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+
+        <div class="day">
+            <button>Вторник</button>
+            <div class="meal">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+
+        <div class="day">
+            <button>Среда</button>
+            <div class="meal">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+
+        <div class="day">
+            <button>Четверг</button>
+            <div class="meal">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+
+        <div class="day">
+            <button>Пятница</button>
+            <div class="meal">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+
+        <div class="day">
+            <button>Суббота</button>
+            <div class="meal">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

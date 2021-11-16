@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .main {
+            display: flex;
+            background-color: burlywood;
+            align-items: flex-start;
+
+        }
+
+        .navigation {
+            background-color: darkcyan;
+            margin-right: .2em;
+            flex: 0 0 15em;
+        }
+
+        .article {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .content {
+            background-color: rgb(138, 165, 165);
+            margin-bottom: .2em;
+            padding: .2em;
+        }
+
+        .footer {
+
+            background-color: cornsilk;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navigation">
+            <h2>Блок навигации</h2>
+            Ширина 15 em<br>
+            Должен присутствовать цвет фона<br>
+            Располагается слева<br>
+            Lorem ipsum, dolor sit ameorem iorem ipsum, dolor sit amet consectetorem ipsum, dolor sit amet
+            consectetpsum, dolor sit amet consectetorem ipsum, dolor sit amet consectett consectetur . Beatae
+            accusantium excepturi ullam nemo ratione, repellendus quia fuga liber.
+            lo
+        </div>
+        <div class="article">
+            <div class="content">
+                <h2>Статья 1</h2><br>
+                Размер блока:<br>
+                Занимает всю доступную ширину<br>
+                Должен присутствовать цвет фонаВо всех статьях сделайте отступ снизу от соседей равным .2em, при помощи
+                свойства margin-bottom.
+            </div>
+            <div class="content">
+
+                <h2>Статья 2</h2><br>
+                Размер блока:<br>
+                Занимает всю доступную ширину<br>
+                Должен присутствовать цвет фона. Во всех статьях сделайте отступ снизу от соседей равным .2em, при
+                помощи
+                свойства margin-bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю
+                внутри
+                данной статьи для этой картинки. 
+                <img src="mail.png" align="right">
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным
+        внутрь контентом.</div>
+
+</body>
+
+</html>
